@@ -46,13 +46,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 3.5.1 (Anaconda 2.4.1). That was the latest version, and it is the one I had already installed on my computer about a month ago.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> You can open up the terminal and type in 'python' and it should tell you what version is installed on that computer.
 
  
 
