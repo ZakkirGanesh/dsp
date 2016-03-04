@@ -59,7 +59,8 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will start with Nano, it is a simpler interface, Vim was too much of a hassle right from the get-go, and Emacs was okay,
+but required a lot of steps to master in a relatively short span of time. On the other hand, I could grasp Nano more quickly, and I feel that I may have an easier time picking up Vim and Emacs after gaining proficiency in Nano first.
 
 --
 
@@ -67,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Spyder. I first started learning Python using Anaconda's Spyder, and I like the workflow better since I can experiment with different codes more quickly. With Spyder's editor, I can run the entire file of code (F5), or run selected chunks of it manageably (F9), or run one cell of code at a time using Ctrl+Enter. I have not yet made any customizations to my editor, but any customizations (keyboard shortcuts, running of programs) can be handled in Preferences.
 
  
