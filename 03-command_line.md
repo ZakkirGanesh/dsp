@@ -13,16 +13,16 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > 1. pushd /directoryname (keep track of current directory and move to new specified directory)
-    2. popd (go back to directory you last pushed)
-    3. touch filename (create new empty file in current directory)
-    4. cp filename (copy listed files to current directory)
-    5. mv oldname newname (doesn't actually move files, just renames them)
-    6. code | code (pipes output on the left to the command on the right)
-    7. code < code or code > code (send output from right to command on the left, vice versa)
-    8. code << code or code >> code (send output from right and append to command on the left, vice versa)
-    9. n* or *n (find filenames starting with "n" or ending with "n")
-    10. sudo command (allows you to run command as another user)
+1. pushd /directoryname (keep track of current directory and move to new specified directory)
+2. popd (go back to directory you last pushed)
+3. touch filename (create new empty file in current directory)
+4. cp filename (copy listed files to current directory)
+5. mv oldname newname (doesn't actually move files, just renames them)
+6. code | code (pipes output on the left to the command on the right)
+7. code < code or code > code (send output from right to command on the left, vice versa)
+8. code << code or code >> code (send output from right and append to command on the left, vice versa)
+9. n* or *n (find filenames starting with "n" or ending with "n")
+10. sudo command (allows you to run command as another user)
 
 
 ---
