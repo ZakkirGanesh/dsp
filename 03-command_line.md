@@ -22,7 +22,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
     7. code < code or code > code (send output from right to command on the left, vice versa)
     8. code << code or code >> code (send output from right and append to command on the left, vice versa)
     9. n* or *n (find filenames starting with "n" or ending with "n")
-    10.
+    10. sudo command (allows you to run command as another user)
 
 
 ---
