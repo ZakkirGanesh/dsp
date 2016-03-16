@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Both lists and tuples are sequences of values, indexed and accessible by integers. However, only tuples will work as keys in dictionaries, because dictionaries require immutable keys, and tuples are immutable unlike lists, which can be changed.
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python lists and sets are both ways of storing multiple values. However, Python lists are ordered, indexed by integers, and can be iterated or sliced. Python sets are an unordered collection of objects that cannot appear in the set more than once. A Python set would be more helpful if you wanted to keep track of what items were at a grocery store, while a list would be more helpful if you wanted to keep track if the prices of items in different stores. Lists are faster to iterate through to find an element, but sets are faster to simply ask "if x in set" to find an element, since they are unordered and therefore would not have to iterate through the entire set to find element x.
 
 ---
 
@@ -28,7 +28,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The 'lambda' function is a construct in Python that allows for simple in-line programming. You could assign 'lambda x: x + 3' to a variable 'art', then call it saying 'art(3)', which would return 6; or, you could just write '(lambda x: x + 3)(3)' without assigning it to a variable, and it would still automatically return 6. This construct can be used in the 'key' argument in 'sorted' functions. If you wanted to sort a list of nested elements by a specific element within each element, you could write 'key=lambda x: x[i]'; or, if you had a set of temperatures in Celsius you wanted to sort from low to high in Fahrenheit, you could write 'key=lambda x: 1.8x + 32'.
 
 ---
 
