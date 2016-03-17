@@ -36,7 +36,8 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are methods you can use to create lists quickly and easily. It usually consists of expressions involving "for" and "if" clauses. If you want to quickly create a list of squares, simply write '[x^2 for x in range(11)]', and you'll immediately have a list '[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]'. If you use the 'map' function to accomplish the same thing, you would write a function 'def square(x): x^2' and then 'map(square, range(11))'. If you want squares that are only odd, with list comprehension you can just write '[x^2 for x in range(11) if (x^2) % 2 == 1]', which gives you '[1, 9, 25, 49, 81]'. Using 'filter', you would first have to have a preexisting list of squares 'squares', a preexisting function to specify odd numbers 'odd', then use 'filter(odd, squares)'. The performance speeds for 'map' and 'filter' versus list comprehensions are only marginally faster in cases where you are using a pre-existing function. Otherwise, list comprehensions are more often recommended for being simpler and easier to read. Set comprehension follows a similar pattern, with slight modifications: to make a set of squares, write '{x^2 for x in range(11)}'. To create a dictionary of squares (keys are the numbers, values are their squares) using dictionary comprehension, you can write 'x: x^2 for x in range(11)}'.
+(Note: I'm using the caret instead of ** so the formatting is not bolded randomly.)
 
 ---
 
