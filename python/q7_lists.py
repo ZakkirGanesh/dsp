@@ -3,6 +3,13 @@
 
 
 def match_ends(words):
+    matched_count = 0
+    for word in words:
+        if len(word) > 1:
+            if word[0] == word[-1]:
+                matched_count += 1
+    return matched_count
+    
     """
     Given a list of strings, return the count of the number of strings
     where the string length is 2 or more and the first and last chars
