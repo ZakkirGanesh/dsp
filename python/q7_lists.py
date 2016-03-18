@@ -26,6 +26,13 @@ def match_ends(words):
 
 
 def front_x(words):
+    words.sort()
+    x_break = int
+    for word in words:
+        if word[0] == "x":
+            x_break = words.index(word)
+            return words[x_break:] + words[:x_break]
+    
     """
     Given a list of strings, return a list with the strings in sorted
     order, except group all the strings that begin with 'x' first.
