@@ -12,15 +12,16 @@ for name in faculty_list[1:]:
     last_name = name[0].split(" ")[-1]
     last_names_list.append(last_name)
 
-faculty_dict = {}
+first_faculty_dict = {}
 info_only_list = [info[1:] for info in faculty_list[1:]]
 
+print(faculty_list)
 i = 0
 while i < len(info_only_list):
-    if last_names_list[i] in faculty_dict:
-        faculty_dict[last_names_list[i]] += [info_only_list[i]]
+    if last_names_list[i] in first_faculty_dict:
+        first_faculty_dict[last_names_list[i]] += [info_only_list[i]]
     else:
-        faculty_dict[last_names_list[i]] = []
-        faculty_dict[last_names_list[i]] += [info_only_list[i]]
+        first_faculty_dict[last_names_list[i]] = []
+        first_faculty_dict[last_names_list[i]] += [info_only_list[i]]
     i += 1
-print(faculty_dict)
+print(first_faculty_dict)
