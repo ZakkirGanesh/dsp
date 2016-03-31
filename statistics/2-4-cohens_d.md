@@ -1,3 +1,3 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Comparing the mean weights of first births and next births, Cohen's d is -0.09, indicating that babies of first births tend to weight only very slightly less than babies of 2nd births or more, which is not a very big difference. I found this by using the coding approach from the previous chapter of the book to divide the main DataFrame into different DataFrames with booleans (is this the first birth, or a second birth, etc.), then using variables to isolate the total weight values of the babies born in each DataFrame. (I have added my code to the dsp/statistics folder.)
