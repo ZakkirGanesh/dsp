@@ -1,15 +1,16 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
 >> 
+
 The actual PMF distribution of the variable "numkdhh" was:
 
-[<img src="statistics/resp_pmf.png" title="resp pmf"/>]
+[<img src="/statistics/resp_pmf.png" title="resp pmf"/>]
 
 The mean of the actual PMF was 1.024.
 
 The observed PMF distribution was:
 
-[<img src="statistics/biased_resp_pmf.png" title="biased resp pmf"/>]
+[<img src="/statistics/biased_resp_pmf.png" title="biased resp pmf"/>]
 
 The mean of the observed PMF was 2.404.
 
