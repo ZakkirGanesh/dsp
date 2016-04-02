@@ -95,7 +95,7 @@ So, the probability of Elvis being an identical twin, given that he had a twin b
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics usually ask "What is the probability of observing a particular set of data, assuming that a given hypothesis is true?" or more simply, P(D|H). Bayesian statistics, on the other hand, ask "What is the probability that a certain hypothesis is true, given the data collected?" or P(H|D). The ultimate divide between the two is that frequentists are using data to figure out if the world aligns with a certain hypothesis, while bayesians are using data to figure out which hypothesis best aligns with the world.
 
 ---
 
